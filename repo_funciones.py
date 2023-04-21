@@ -12,3 +12,4 @@ def nanrows(x):
 def unique_cols(x):
     unique_cols = x.nunique()
     return unique_cols.sort_values(ascending=False)
+
