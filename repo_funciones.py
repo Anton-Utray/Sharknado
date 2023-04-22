@@ -13,3 +13,8 @@ def unique_cols(x):
     unique_cols = x.nunique()
     return unique_cols.sort_values(ascending=False)
 
+
+#checar dtypes unicos por columna
+def get_unique_dtypes(df, col):
+    unique_dtypes = df[col].apply(lambda x: type(x)).unique()
+    return unique_dtypes
