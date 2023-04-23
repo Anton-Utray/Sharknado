@@ -1,3 +1,5 @@
+import pandas as pd
+
 #checar conteo nulos Columnas, Ascending False
 def nancols(x):
     nan_cols = x.isna().sum()
@@ -18,10 +20,18 @@ def unique_cols(x):
     return unique_cols.sort_values(ascending=False)
 
 
+#conteo de valores unicos por columno devuelto como DF para mejor visu
+def col_unique_counts(df, col):
+    counts = df[col].value_counts().reset_index()
+    counts.columns = [col, 'Count']
+    return counts
+
+
 #checar dtypes unicos por columna
 def get_unique_dtypes(df, col):
     unique_dtypes = df[col].apply(lambda x: type(x)).unique()
     return unique_dtypes
+
 
 #esta checala
 
