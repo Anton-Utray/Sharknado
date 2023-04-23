@@ -33,7 +33,7 @@ def get_unique_dtypes(df, col):
     return unique_dtypes
 
 
-#esta checala
+#esta checalas
 
 def time_of_day(hour): # funcion para agrupar y asi reducir la cantidad de horas del dia en periodos preestablecidos
 
@@ -46,3 +46,19 @@ def time_of_day(hour): # funcion para agrupar y asi reducir la cantidad de horas
     else:
         return 'No information'
 #data["Time_groups"] = data['Time'].apply(time_of_day)
+
+def age_groups(df, age):
+    if age == 0:
+        return 'No information'
+    elif age <= 12:
+        return 'kid'
+    elif age <= 19:
+        return 'teen'
+    elif age <= 60:
+        return 'adult'
+    elif age >= 60:
+        return 'elderly'
+    else:
+        return 'No information'
+
+#data['age'] = data['age'].apply(age_of_victims)
