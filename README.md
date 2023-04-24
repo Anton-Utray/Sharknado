@@ -1,10 +1,8 @@
 ![Ironhack logo](https://i.imgur.com/1QgrNNw.png) 
 
-# Sharknado
+# Sharknado - Proyecto de limpieza de datos.
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://github.com/Anton-Utray/Sharknado/blob/main/Images/Sharknado.webp" width="500" height="500">
-
-## Proyecto de limpieza de datos.
 
 ## Objetivo: 
 
