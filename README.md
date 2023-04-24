@@ -17,7 +17,8 @@ Aplicar las herramientas y tecnicas de limpieza y manipulación de datos aprendi
 
 ## Herramientas:
 
--Python, librerias Pandas y Numpy.
+- Python
+- Librerias Pandas y Numpy.
 
 ## Tecnicas utilizadas:
 
