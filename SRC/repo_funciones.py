@@ -47,7 +47,7 @@ def time_of_day(hour): # funcion para agrupar y asi reducir la cantidad de horas
         return 'No information'
 #data["Time_groups"] = data['Time'].apply(time_of_day)
 
-def age_groups(df, age):
+def age_groups(age):
     if age == 0:
         return 'No information'
     elif age <= 12:
