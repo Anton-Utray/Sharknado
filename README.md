@@ -1,6 +1,8 @@
 # Sharknado
 
 
+
+
 Proyecto de limpieza de datos. Incluye:
 
  - Analisis Inicial (df.describe & df.column)
