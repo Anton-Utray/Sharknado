@@ -8,12 +8,12 @@
 
 Aplicar las herramientas y tecnicas de limpieza y manipulación de datos aprendidas durante las primeras dos semanas del bootcamp de Analítica de Datos en IronHack. 
 
-## Estructura:
+## Estructura del repositorio:
 
 - Data : archivo inicial & archivo limpio.
 - Images: repositorio de imagenes.
 - Notebooks: Primer borrador(AKA Chorizo) & versión final (AKA Data-Cleaning).
-- SRC: Repositorio de funciones propias.
+- SRC: repositorio de funciones propias.
 
 ## Herramientas:
 
